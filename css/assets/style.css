@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html{
@@ -47,4 +47,22 @@ header button{
 
 header div ul li a{
     color: white;
+}
+
+/* First section with features */
+
+section{
+    display: flex;
+}
+
+.card{
+    background-color: #b5ddff;
+    text-align: center;
+
+    border-radius: 20px;
+}
+
+.large{
+    text-align: left;
+    display: flex;
 }
