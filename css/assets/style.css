@@ -53,7 +53,9 @@ header div ul li a{
     color: white;
 }
 
-/* First section with features */
+/***************************************
+    First section with features 
+***************************************/
 
 .first-section{
     width: 70%;
@@ -136,32 +138,28 @@ header div ul li a{
     width: 300px;
 }
 
-/* Second section */
-
-.second-section *{
-    border: 1px solid red;
-}
-
+/***************************************
+            Second section 
+***************************************/
 
 .second-section{
     background-color: #9593e6;
 }
 
-.container{
+.second-section .container{
     display: flex;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
+
+/***************************************
+    Shared properties by both sides 
+***************************************/
 
 .second-section .left-side,
 .second-section .right-side{
     width: 50%;
-
 }
-
-/***************************************
-Shared properties by both sides 
-***************************************/
 
 .left-side h3,
 .right-side h3{
@@ -175,13 +173,16 @@ Shared properties by both sides
 }
 
 /***************************************
-Left side properties and attributes 
+    Left side properties and attributes 
 ****************************************/
 
 .second-section .left-side{
     color: white;
-    
     margin-right: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 
@@ -193,9 +194,9 @@ Left side properties and attributes
 }
 
 
-/***************************************
-Right side properties and attributes 
-***************************************/
+/*****************************************
+    Right side properties and attributes 
+******************************************/
 
 .second-section .right-side{
     background-color: white;
@@ -221,7 +222,42 @@ Right side properties and attributes
 .arrow-down{
     display: inline-block;
     background-color: #9593e6;
+    color: black;
     border-radius: 50%;
     padding: 1em;
     cursor: pointer;
+}
+
+/***************************************
+            Third section
+***************************************/
+
+.third-section {
+    margin-top: 2em;
+}
+
+.third-section .title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    gap: 2em;
+}
+
+.third-section span{
+    text-transform: capitalize;
+}
+
+.third-section h3{
+    color: #9593e6;
+    font-size: 40px;
+}
+
+.third-section span,
+.third-section h4{
+    text-transform: uppercase;
+}
+
+.profile{
+    display: flex;
 }
