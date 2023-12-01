@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html{
@@ -52,17 +52,38 @@ header div ul li a{
 /* First section with features */
 
 section{
-    display: flex;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    */
+
+    width: 70%;
+    margin: 3em auto;
 }
 
 .card{
     background-color: #b5ddff;
     text-align: center;
-
     border-radius: 20px;
 }
 
-.large{
+.flex-left{
     text-align: left;
     display: flex;
+}
+
+.large{
+    width: 65%;
+}
+
+.small{
+    width: 30%;
+}
+
+.lower-container,
+.upper-container{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1em;
+    /* gap: 1em; */
 }
