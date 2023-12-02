@@ -435,4 +435,68 @@ Fourth section  - I've decided to style the flex property directly in the HTML t
     padding-inline: 2em;
 }
 
+/***************************************
+            Sixth section
+***************************************/        
 
+.sixth-section .title{
+    text-align: center;
+    background-color: #9593e6;
+    padding-block: 3em;
+}
+
+.sixth-section .title span{
+    text-transform: uppercase;
+    color: #5A6E7F;
+    font-weight: lighter;
+}
+
+.sixth-section .title h3{
+    color: #fff;
+    font-size: 40px;
+}
+
+.sixth-section .title h2{
+    color: #FDC15F;
+    font-size: 100px;
+}
+
+.sixth-section .title p{
+    color: #fff;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sixth-section .title button{
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+
+    padding: 1em 3em 1em 3em;
+
+    margin-block: 2em;
+}
+
+.sixth-section .title button a{
+    text-decoration: none;
+    color: #9593e6;
+} 
+
+.sixth-section .title ul{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+}
+.sixth-section .title ul li{
+    list-style-type: disc;
+    color: #fff;
+}
+
+.sixth-section .title ul li:last-child{
+    text-decoration: underline;
+}
+.sixth-section .title ul li:first-child{
+    list-style-type: none;
+}
