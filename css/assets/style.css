@@ -50,7 +50,7 @@ header button{
 }
 
 header div ul li a{
-    color: white;
+    color: #fff;
 }
 
 /***************************************
@@ -74,7 +74,7 @@ header div ul li a{
 }
 
 .upper-container button{
-    color: white;
+    color: #fff;
     background-color: #0084FD;
     border-radius: 2em;
     border: 0;
@@ -144,11 +144,15 @@ header div ul li a{
 
 .second-section{
     background-color: #9593e6;
+    width: fit-content;
 }
 
 .second-section .container{
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
     width: 50%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -158,7 +162,8 @@ header div ul li a{
 
 .second-section .left-side,
 .second-section .right-side{
-    width: 50%;
+   width: fit-content;
+   margin-block: 3em;
 }
 
 .left-side h3,
@@ -177,15 +182,14 @@ header div ul li a{
 ****************************************/
 
 .second-section .left-side{
-    color: white;
+    color: #fff;
     margin-right: 3em;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
 }
-
-
 
 .left-side p{
     line-height: 180%;
@@ -199,7 +203,7 @@ header div ul li a{
 ******************************************/
 
 .second-section .right-side{
-    background-color: white;
+    background-color: #fff;
     border-radius: 50px;
     text-align: center;
 
@@ -233,7 +237,9 @@ header div ul li a{
 ***************************************/
 
 .third-section {
-    margin-top: 2em;
+    margin: 2em auto;
+
+    width: 70%;
 }
 
 .third-section .title{
@@ -242,6 +248,16 @@ header div ul li a{
     text-align: center;
     
     gap: 2em;
+}
+
+.third-section .title span,
+.third-section .title h3,
+.third-section .title p{
+    margin-block: 1em;
+}
+
+.third-section .title p{
+    text-transform: none;
 }
 
 .third-section span{
@@ -260,4 +276,59 @@ header div ul li a{
 
 .profile{
     display: flex;
+    background-color: #9593e6;
+
+    margin-block: 2em;
+
+    padding: 1em;
+    border-radius: 25px;
 }
+
+.profile figure{
+    margin-right: 1em;
+}
+
+.profile figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.centered-text{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    line-height: 180%;
+    font-size: 20px;
+    
+}
+
+/***************************************
+            Fourth section
+***************************************/
+
+.fourth-section{
+    background-color: #9593e6;
+}
+
+.fourth-section h3{
+    text-align: center;
+
+    color: #fff;
+    font-size: 40px;
+}
+
+.fourth-section .benefit-card{
+    background-color: #fff;
+    color: #9593e6;
+    border-radius: 25px;
+    padding: 3em;
+
+    width: calc(100% / 3);
+   
+}
+
