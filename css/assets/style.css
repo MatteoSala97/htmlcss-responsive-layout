@@ -359,6 +359,80 @@ Fourth section  - I've decided to style the flex property directly in the HTML t
     
     padding-block: 0.5em;
     padding-inline: 2em;
-    
 }
+
+/***************************************
+            Fifth section
+***************************************/
+.fifth-section{
+    width: 70%;
+    margin: 3em auto;
+
+    display: flex;
+}
+/***************************************
+        Left side properties
+***************************************/
+.fifth-section .left-side-text{
+    width: 60%;
+    line-height: 180%;
+}
+
+.fifth-section .left-side-text h2{
+    color: #9593e6;
+    font-size: 40px;
+    
+    margin-bottom: 1em;
+}
+.fifth-section .left-side-text p{
+    margin-block: 1em;
+}
+
+/***************************************
+            Right side properties
+***************************************/
+
+.right-side-text{
+    width: 40%;
+    text-align: center;
+}
+.right-side-text figure{
+    position: relative;
+    width: fit-content;
+
+    margin: 0 auto;
+}
+
+.right-side-text img{
+    border-radius: 50%;
+    width: 200px;
+    object-fit: cover;
+}
+
+.right-side-text figure span{
+    position: absolute;
+    right: 5%;
+    top: -10%;
+
+    font-size: 60px;
+    color: #9593e6;
+}
+
+.right-side-text p{
+    width: 30%;
+    margin: 1em auto 2em auto;
+    color: #9593e6;
+    font-weight: bold;
+}
+
+.right-side-text a{
+    background-color: #9593e6;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    
+    padding-block: 0.5em;
+    padding-inline: 2em;
+}
+
 
