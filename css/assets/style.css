@@ -307,12 +307,18 @@ header div ul li a{
     
 }
 
-/***************************************
-            Fourth section
-***************************************/
+/*****************************************************************************************************
+Fourth section  - I've decided to style the flex property directly in the HTML to lighten the CSS up
+******************************************************************************************************/
 
 .fourth-section{
     background-color: #9593e6;
+    
+}
+
+.fourth-section-container{
+    width: 70%; 
+    margin: 0 auto;
 }
 
 .fourth-section h3{
@@ -328,7 +334,31 @@ header div ul li a{
     border-radius: 25px;
     padding: 3em;
 
-    width: calc(100% / 3);
-   
+    margin: 1em;
+    width: calc((100% / 3) - 2em);
+}
+
+.benefit-card ul li h2{
+    font-size: 60px;
+}
+.benefit-card ul li h4{
+    font-size: 30px;
+}
+
+.benefit-card ul li p{
+    color: #5A6E7F;
+    line-height: 160%;
+
+    margin-bottom: 2em;
+}
+
+.benefit-card ul li a{
+    background-color: #9593e6;
+    border-radius: 15px;
+    color: #fff;
+    
+    padding-block: 0.5em;
+    padding-inline: 2em;
+    
 }
 
