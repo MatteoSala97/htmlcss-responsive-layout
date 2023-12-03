@@ -10,22 +10,16 @@ html{
     font-family: sans-serif;
 }
 
-body{
-    height: 10000px;
-}
-
 li{
     list-style-type: none;
 }
 
 li a{
     text-decoration: none;
-
 }
 
 header{
     background-color: #0084FD;
-    
 }
 
 .desktop{
