@@ -1,0 +1,157 @@
+/***************************************
+**************************************** 
+    Media query for tablet users 768px
+****************************************
+****************************************/
+@media screen and (min-width: 768px) {
+    .tablet{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .desktop{
+        display: none;
+        gap: 0;
+    }
+
+    .tablet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 1em;
+    }
+
+    /* tbd */
+    .fa-burger:hover{
+    }
+
+    /*********************************
+        First section with features 
+    **********************************/
+
+    .first-section{
+        width: 90%;
+    }
+
+    .card{
+        padding: 0;
+    }
+
+    .large{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 2em;
+    }
+
+    .large div,
+    .img-container{
+        width: 100%;
+    }
+
+    .upper-container button{
+        margin-top: 0;
+    }
+
+    .img-container img{
+        width: 200px;
+    }
+
+   
+
+    /********************
+        Second section 
+    *********************/
+
+    .second-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .second-section .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .second-section .left-side,
+    .second-section .right-side{
+        width: fit-content;
+        margin-block: 3em;
+    }
+
+    .left-side h3,
+    .right-side h3{
+        margin-top: 3em;
+    }
+
+    .right-side img,
+    .left-side img{
+        width: 600px;
+    }
+
+    .second-section .left-side{
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+/*****************************************
+******************************************
+    Media query for phone users - 480px
+******************************************
+******************************************/
+
+@media  screen and (max-width: 480px) {
+    
+    /*****************************
+        First section with features 
+    ********************************/
+    .upper-container,
+    .lower-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .large{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .large,
+    .small{
+        margin-block: 1em;
+        width: 100%;
+    }
+
+    .flex-left{
+        display: flex;
+        text-align: center;
+    }
+
+    .img-container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /*****************************
+            Second section 
+    ******************************/
+    .second-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .right-side img,
+    .left-side img{
+        width: 400px;
+    }
+}

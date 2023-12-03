@@ -25,9 +25,10 @@ li a{
 
 header{
     background-color: #0084FD;
+    
 }
 
-header div{
+.desktop{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,20 +38,31 @@ header div{
     padding: 1em;
 }
 
-header div ul{
+.desktop ul{
     display: flex;
+
+    align-items: center;
 
     gap: 2em;
     text-transform: capitalize;
     font-size: 20px;
 }
 
-header button{
+.desktop button{
     text-transform: capitalize;
+    padding: 1em;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
 }
 
-header div ul li a{
+.desktop ul li a{
     color: #fff;
+}
+
+.fa-burger{
+    color: #fff;
+    font-size: 35px;
 }
 
 /***************************************
@@ -115,8 +127,8 @@ header div ul li a{
 }
 
 .flex-left{
-    text-align: left;
     display: flex;
+    text-align: left;  
 }
 
 .large{
@@ -132,6 +144,11 @@ header div ul li a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
+}
+
+.img-container{
+    display: flex;
+    align-items: flex-end;
 }
 
 .img-container img{
