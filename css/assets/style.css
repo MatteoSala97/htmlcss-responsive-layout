@@ -59,6 +59,11 @@ header{
     font-size: 35px;
 }
 
+.fa-burger:hover{
+    background-color: #71BBFF;
+    border-radius: 5px;
+}
+
 /***************************************
     First section with features 
 ***************************************/
