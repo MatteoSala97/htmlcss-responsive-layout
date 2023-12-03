@@ -160,7 +160,7 @@ header{
 
 .second-section{
     background-color: #9593e6;
-    width: fit-content;
+    width: 100%;
 }
 
 .second-section .container{
@@ -229,8 +229,6 @@ header{
 .second-section .right-side div{
     margin-block: 1em;
 }
-
-
 
 .right-side p{
     font-style: italic;
@@ -332,7 +330,6 @@ Fourth section  - I've decided to style the flex property directly in the HTML t
 
 .fourth-section{
     background-color: #9593e6;
-    
 }
 
 .fourth-section-container{
@@ -345,6 +342,8 @@ Fourth section  - I've decided to style the flex property directly in the HTML t
 
     color: #fff;
     font-size: 40px;
+    
+    padding-block: 1em;
 }
 
 .fourth-section .benefit-card{
