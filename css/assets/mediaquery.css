@@ -105,6 +105,23 @@
     /********************
         Fourth section 
     *********************/
+
+    .fourth-section-container div{
+        padding-top: 2em;
+    }
+
+    .fourth-section-container{
+        width: 100%; 
+        margin: 0 auto;
+    }
+    .fourth-section .benefit-card{
+        width: calc((100% / 2) - 2em);
+        margin: 1em auto;
+    }
+    
+    /********************
+        Fifth section 
+    *********************/
 }
 
 
@@ -183,5 +200,19 @@
 
     /********************
         Fourth section 
+    *********************/
+
+    .fourth-section-container div{
+        padding-top: 4em;
+        padding-inline: 1em;
+    }
+
+    .fourth-section .benefit-card{
+        width: 100%;
+        margin: 1em 1em;
+    }
+
+    /********************
+        Fifth section 
     *********************/
 }
