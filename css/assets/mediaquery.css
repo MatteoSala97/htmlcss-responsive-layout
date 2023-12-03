@@ -3,6 +3,7 @@
     Media query for tablet users 768px
 ****************************************
 ****************************************/
+
 @media screen and (min-width: 768px) {
     .tablet{
         display: none;
@@ -122,6 +123,13 @@
     /********************
         Fifth section 
     *********************/
+
+    .fifth-section{
+        width: 90%;
+    }
+    .right-side-text{
+        width: 80%;
+    }
 }
 
 
@@ -215,4 +223,18 @@
     /********************
         Fifth section 
     *********************/
+    .fifth-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifth-section .left-side-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fifth-section .right-side-text{
+        width: 90%;
+        margin: 0 auto;
+    }
 }

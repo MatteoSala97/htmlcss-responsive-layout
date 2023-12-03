@@ -410,6 +410,7 @@ Fourth section  - I've decided to style the flex property directly in the HTML t
     width: 40%;
     text-align: center;
 }
+
 .right-side-text figure{
     position: relative;
     width: fit-content;
