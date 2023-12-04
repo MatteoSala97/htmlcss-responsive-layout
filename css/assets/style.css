@@ -110,11 +110,15 @@ header{
     font-size: 60px;
 }
 
+.first-section i{
+    margin-top: 0.5em;
+}
+
 .first-section h3{
-    font-size: 35px;
+    font-size: 25px;
     color: #0084FD;
     
-    margin-top: 1em
+    margin-top: 1em;
 }
 
 .first-section p{
@@ -123,6 +127,10 @@ header{
 
     margin-top: 3em;
     margin-bottom: 2em;
+}
+
+.first-section button{
+    margin-bottom: 1em;
 }
 
 .flex-left{
@@ -150,6 +158,11 @@ header{
     align-items: flex-end;
 }
 
+.lower-container p,
+.upper-container p{
+    margin-inline: 0.5em;
+}
+
 .img-container img{
     width: 300px;
 }
@@ -165,7 +178,6 @@ header{
 
 .second-section .container{
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     width: 50%;
     height: 100%;
@@ -200,17 +212,10 @@ header{
 .second-section .left-side{
     color: #fff;
     margin-right: 3em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
 }
 
 .left-side p{
     line-height: 180%;
-
-    margin-block: 1em;
 }
 
 
@@ -246,7 +251,6 @@ header{
     cursor: pointer;
 
     width: 50px;
-    
 }
 
 /***************************************
